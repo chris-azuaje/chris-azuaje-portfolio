@@ -1,9 +1,7 @@
 :root {
+  --main-primary: #191414;
+  --main-secondary: #219ebc;
   --main-light: #8ecae6;
-  --main-primary: #219ebc;
-  --main-secondary: #023047;
-  --main-orange: #fb8500;
-  --main-light-orange: #ffb703;
 }
 
 * {
@@ -14,7 +12,7 @@
 }
 
 body {
-  background: linear-gradient(var(--main-light), var(--main-secondary) 80%);
+  background: black;
   display: flex;
   justify-content: center;
 }
@@ -28,7 +26,7 @@ body {
   margin: 40px 40px 40px 40px;
   padding: 20px 50px;
   max-width: 900px;
-  border-radius: 20px;
+  border: 10px solid var(--main-secondary);
 }
 
 .main .project-section {
@@ -40,12 +38,12 @@ body {
 }
 
 .main h1 {
-  color: var(--main-light-orange);
+  color: white;
   margin: 20px 0 30px 0;
   width: 100%;
   text-align: center;
   letter-spacing: 3px;
-  font-family: "Pacifico", cursive;
+  font-family: "VT323", monospace;
   font-size: 50px;
 }
 
@@ -62,8 +60,8 @@ body {
 }
 
 .main a {
-  background-color: var(--main-light);
-  color: black;
+  background-color: var(--main-primary);
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,13 +69,14 @@ body {
   margin: 10px 0;
   width: 100%;
   height: 100px;
-  border-radius: 20px;
   text-decoration: none;
   font-size: 25px;
+  border: 10px solid var(--main-secondary);
 }
 
 .main a:hover {
-  background-color: var(--main-orange);
+  background-color: var(--main-light);
+  color: black;
 }
 
 @media screen and (max-width: 1000px) {
