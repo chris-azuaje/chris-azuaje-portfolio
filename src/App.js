@@ -69,7 +69,7 @@ function PersonalProjects() {
   const PP = personalData;
   return (
     <div className="project-section">
-      <h1>- Personal Projects -</h1>
+      <h1>Personal Projects</h1>
       <ul>
         {PP.map((selectedProject) => (
           <Personal personalObj={selectedProject} key={selectedProject.name} />
@@ -83,7 +83,7 @@ function FrontEndMentorProjects() {
   const FEMP = frontEndMentorData;
   return (
     <div className="project-section">
-      <h1>- Front End Mentor -</h1>
+      <h1>Front End Mentor</h1>
       <ul>
         {FEMP.map((selectedProject) => (
           <FrontEndMentor
@@ -100,7 +100,7 @@ function CourseProjects() {
   const CP = courseData;
   return (
     <div className="project-section">
-      <h1>- Course Projects -</h1>
+      <h1>Course Projects</h1>
       <ul>
         {CP.map((selectedProject) => (
           <Course courseObj={selectedProject} key={selectedProject.name} />

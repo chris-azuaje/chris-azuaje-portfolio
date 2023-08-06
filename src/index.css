@@ -1,7 +1,7 @@
 :root {
-  --main-primary: #191414;
-  --main-secondary: #219ebc;
-  --main-light: #8ecae6;
+  --main-primary: #00bb00;
+  --main-secondary: #00ff00;
+  --hover: #003b00;
 }
 
 * {
@@ -12,7 +12,7 @@
 }
 
 body {
-  background: black;
+  background: #212428;
   display: flex;
   justify-content: center;
 }
@@ -26,7 +26,7 @@ body {
   margin: 40px 40px 40px 40px;
   padding: 20px 50px;
   max-width: 900px;
-  border: 10px solid var(--main-secondary);
+  border: 3px solid black;
 }
 
 .main .project-section {
@@ -38,7 +38,7 @@ body {
 }
 
 .main h1 {
-  color: white;
+  color: black;
   margin: 20px 0 30px 0;
   width: 100%;
   text-align: center;
@@ -60,23 +60,24 @@ body {
 }
 
 .main a {
-  background-color: var(--main-primary);
-  color: white;
+  background-color: var(--main-secondary);
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0 20px;
   margin: 10px 0;
   width: 100%;
-  height: 100px;
+  height: 80px;
   text-decoration: none;
   font-size: 25px;
-  border: 10px solid var(--main-secondary);
+  border: 3px solid black;
+  transition: color 300ms ease 0s;
 }
 
 .main a:hover {
-  background-color: var(--main-light);
-  color: black;
+  color: white;
+  background-color: var(--hover);
 }
 
 @media screen and (max-width: 1000px) {
