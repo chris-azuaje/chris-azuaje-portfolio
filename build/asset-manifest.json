@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chris-azuaje-portfolio/static/css/main.c0584493.css",
+    "main.js": "/chris-azuaje-portfolio/static/js/main.1d276270.js",
+    "index.html": "/chris-azuaje-portfolio/index.html",
+    "main.c0584493.css.map": "/chris-azuaje-portfolio/static/css/main.c0584493.css.map",
+    "main.1d276270.js.map": "/chris-azuaje-portfolio/static/js/main.1d276270.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0584493.css",
+    "static/js/main.1d276270.js"
+  ]
+}
